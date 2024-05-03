@@ -48,7 +48,7 @@ Then we have the verifier module which checks whether the values are grounded an
 Three kinds of check occur:- groundedness, calculation, reasoning
 
 ### Step-Back Prompting
-[alt text](image.png)
+![alt text](image.png)
 First we ask the llm to give the concepts behind the concepts and principles behind the question.
 Then the llm uses this context to finally generate the response.
 
