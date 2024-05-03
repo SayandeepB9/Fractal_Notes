@@ -19,6 +19,7 @@ Dataset->add by numbers->add complexity->model1 mistral fine tuning
 ->4 answers->model2 kto dpo->answers by model2 evaluated by gpt4
 
 ### SELF EXPLORE
+To be read
 
 ### Chain of Verification
 
@@ -41,10 +42,15 @@ This is finally used to generate the final response.
 Problems with SLMs:- wont understand the difference between the various thought processes
 
 ### Deductive verification of cot reasoning
-
+![alt text](image-1.png)
+Break down the question into parts and generate a well reasoned solution for each part by taking into account the given information and the previous responses.
+Then we have the verifier module which checks whether the values are grounded and then it checks whether a given step can be derived from the previous steps and the given context.
+Three kinds of check occur:- groundedness, calculation, reasoning
 
 ### Step-Back Prompting
-
+[alt text](image.png)
+First we ask the llm to give the concepts behind the concepts and principles behind the question.
+Then the llm uses this context to finally generate the response.
 
 ### Papers to read
-https://arxiv.org/pdf/2404.02255 - decomposition, solution, verification LM2
+https://arxiv.org/pdf/2404.02255 - decomposition, solution, verification LM2!
