@@ -1,0 +1,14 @@
+Errors:-
+1. Most often the errors are conceptual like it could not understand catalna number,etc.
+2. Faced problems in ones dealing with specific physical structures
+3. Often to solve the problem is assumes things which are incorrect
+4. Sometimes gets the question wrong
+5. If it gets wrong solution the new tries are too similar to the old ones to have any impact
+6. Code is incorrect and sometimes even the code outputs are incorrect like in B10
+7. Only very simple questions or the queations which can be directly interpreted
+as equations are correct
+8. Correct code incorrect output. May be due to errors in handling very large number like in 20
+9. ### In many cases a brute force approach can be undertaken since the limits are small
+This can be helpful in increasing accuracy
+10. Often arrives at a correct solution not in option like in B33. We can prompt to provide an
+exhaustive list of answers and then match the thing
