@@ -64,3 +64,5 @@ To be read
 ### Papers to read
 
 https://arxiv.org/pdf/2404.02255 - decomposition, solution, verification LM2!
+https://arxiv.org/pdf/2306.14050 - symbolic cot distillation
+https://arxiv.org/pdf/2305.01879 - scott
